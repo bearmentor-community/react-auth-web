@@ -1,14 +1,10 @@
-# Project Example: Auth with React
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c05cb043-3799-423b-a090-1c2b4cb19756/deploy-status)](https://app.netlify.com/sites/auth-haidar-dev/deploys)
-
-Visit the live example: https://auth.haidar.dev
+# Example Auth React
 
 ## Links
 
-- Production: https://auth.haidar.dev
-- Netlify: https://auth-haidar-dev.netlify.com
-  - Dashboard: https://app.netlify.com/sites/auth-haidar-dev/overview
+- Production: https://example-auth-react.azobu.app
+- Netlify: https://azobu-example-auth-react.netlify.com
+  - Dashboard: https://app.netlify.com/sites/azobu-example-auth-react/overview
 
 ## Stack
 
