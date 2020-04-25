@@ -12,8 +12,13 @@ code {
     monospace;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 a {
   color: hsl(50, 100%, 60%);
+  text-decoration: none;
 }
 
 p a {

@@ -4,7 +4,6 @@ import styled from '@xstyled/emotion'
 const FooterStyled = styled.footer`
   text-align: center;
   padding: 1rem;
-  text-transform: uppercase;
   background: #111;
   color: #fd3;
 `
@@ -12,7 +11,7 @@ const FooterStyled = styled.footer`
 const Footer = () => {
   return (
     <FooterStyled>
-      <small>2020 &copy; Project Auth React</small>
+      <small>© Copyright 2020 Azobu App. All rights reserved.</small>
     </FooterStyled>
   )
 }

@@ -6,6 +6,7 @@ import ContentTitle from './ContentTitle'
 const ContentStyled = styled.main`
   max-width: 600px;
   margin: 0 auto;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
