@@ -9,11 +9,8 @@ const AboutPage = () => {
   return (
     <Page title='About'>
       <div>
-        <h3>Welcome to Project Auth React</h3>
-        <p>You can login with existing demo users mentioned here.</p>
-      </div>
-      <div>
         <h3>Demo Users</h3>
+        <p>You can login with existing demo users mentioned here.</p>
         <table>
           <thead>
             <tr>

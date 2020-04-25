@@ -27,7 +27,7 @@ const App = () => {
         console.log('Connection is online')
       } catch (error) {
         if (axios.isCancel(error)) {
-          console.error('cancelled')
+          console.error('Connection is cancelled')
         } else {
           console.error('Connection is offline')
           console.error(error)

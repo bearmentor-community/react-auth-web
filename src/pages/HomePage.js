@@ -10,9 +10,13 @@ const HomePage = () => {
   const user = getAuthenticatedUser()
 
   return (
-    <Page title='Welcome to Project Auth React'>
+    <Page title='Welcome to Auth React'>
       {!isAuthenticated && (
         <div>
+          <p>
+            This is an example project to learn about authentication and
+            authorization in React.
+          </p>
           <p>
             Please <Link to='/register'>register</Link> or{' '}
             <Link to='/login'>login</Link> to see the{' '}
@@ -22,21 +26,18 @@ const HomePage = () => {
           <p>
             Check <Link to='/about'>about page</Link> for demo users.
           </p>
+          <p>The features:</p>
+          <ul>
+            <li>Register new user</li>
+            <li>Login to existing user</li>
+            <li>Dashboard to see user profile</li>
+            <li>See all registered users</li>
+            <li>Search users by name</li>
+          </ul>
         </div>
       )}
 
       {isAuthenticated && <h2>Hello {user.name}!</h2>}
-
-      <div>
-        <p>The features:</p>
-        <ul>
-          <li>Register new user</li>
-          <li>Login to existing user</li>
-          <li>Dashboard to see user profile</li>
-          <li>See all registered users</li>
-          <li>Search users by name</li>
-        </ul>
-      </div>
     </Page>
   )
 }
