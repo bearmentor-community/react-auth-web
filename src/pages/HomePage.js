@@ -10,7 +10,7 @@ const HomePage = () => {
   const user = getAuthenticatedUser()
 
   return (
-    <Page title='Welcome to Auth React'>
+    <Page title='Welcome to Example Auth React'>
       {!isAuthenticated && (
         <div>
           <p>

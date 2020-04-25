@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <LinkHome to='/'>
-        <AppName>Auth React</AppName>
+        <AppName>Logo</AppName>
       </LinkHome>
 
       <Navigation>
