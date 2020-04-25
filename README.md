@@ -34,7 +34,29 @@
 - Search user by name from input text field
   - Request each character typing or submitted
 
-## Scripts
+## Usage
+
+### Setup Environment Variables
+
+```sh
+./setup.sh
+```
+
+**Development**
+
+Edit `.env` file directly:
+
+```txt
+REACT_APP_API_URL=http://localhost:8000
+```
+
+**Production**
+
+Setup in respective platform like Netlify:
+
+```txt
+REACT_APP_API_URL = https://example-auth-express.azobu.app
+```
 
 ### Install Dependencies
 
